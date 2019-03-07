@@ -1,0 +1,59 @@
+.heads{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#obicniParagraf{
+    background-color: brown;
+    height: 150px;
+}
+
+#ograniceniParagraf{
+    max-width: 80%;
+    background-color: yellow;
+    margin-left: 10%;
+}
+
+table, th{
+    border: 1px solid red
+}
+
+#veciHead{
+    font-size: 30px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+    font-size: 20px;
+    text-shadow: 5px 1.5px green;
+}
+
+#text{
+    text-indent: 45px;
+    word-spacing: 10px;
+    letter-spacing: 5px
+}
+
+#textOpacity{
+    opacity: 0.5;
+    width: 50%;
+    height: 100px;
+    overflow: auto;
+    border: 5px solid red;
+}
+
+#textOpacity:hover{
+    opacity: 1;
+}
+
+ol{
+    list-style-type: decimal-leading-zero
+}
+
+ul{
+    list-style-image: url("../images/icon.ico");
+}

@@ -1,0 +1,24 @@
+HTML ZADATAK - rok sutra (imas danas i sutra, al sutra po danu il najkasnije navecer)
+
+na slici imate kako treba izgledat stranica
+
+svaki elemenat mora imat ID 
+
+u HEAD-u TREBAJU SVI NAJBITNIJI META TAGOVI ILI PO POTREBI LINKOVI
+TREBA IMAT IKONU
+
+IMAMO PAR HEAD-ova, PAZITE NA VELICINU
+
+PAR PARAGRAFA...PISE GDJE STA TREBA NA STRANICI
+
+TREBA UBACIT SLIKU
+
+BUTTON NA OBA NACINA
+
+LISTA NA OBA NACINA
+
+LINK
+
+TITLE NA HOVER ELEMENTA 
+
+TABELA

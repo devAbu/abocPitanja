@@ -1,0 +1,25 @@
+ROK do nedjelje navecer --> ponedeljak za ispravke ako ih bude
+
+ima slika kako treba izgledat stranica
+
+head ima sve stvari sto smo u proslom zadatku radili
+
+svaki elemenat mora imat id, class i po potrebni name (poksajte sami skontat gdje ide name)
+
+STYLE TEKST NE TREBAS NISTA OBJASNIT IMA NA SLICI KAKO TREBA DA bude
+
+---FORMA---
+
+svaki button oznacava da je sve prije njega u jednoj formi...poslije njega druga FORMA
+
+prvi field...kad se stranica otvori odma on bude selektovan i user moze da kuca
+
+sto se tice MUSKO/ZENSKO na oba nacina kad user pritisne na MUSKO il ZENSKO  treba da se selekta...pazite na selektovane kad se stranica pokrene
+
+ne zaboravit unijet teskt koji je manje vidljiv unutar fileda...stoji dok user ne krene tu kucat
+
+field gdje ima "NE MOZE KUCAT" treba da stvarno nmz kucat haha...i treba na hover da mu ispise da nmz kucat
+
+filed godine takodjer nmz mijenjat...na hover ispise da se nmz mijenjat
+
+u zadnjem dijelu 4 je vec selektovana...cim se stranica pokrene...i user moze selektovat 2 opcije, treba opciju IZABERU OCJENU zabranit da se selekta...filed pored je veoma slican samo sto dodje kao neki drop down/up

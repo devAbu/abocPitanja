@@ -1,0 +1,10 @@
+*** rok do nedjelje navecer ***
+
+GLAVNI CILJ ZADATAK JE CSS
+
+-- prvi head je centriran
+-- u rijec LINK ima kao sjena
+
+SVAKO MIJENJANJE STYLE/DESIGN IDE PREKO CSS
+
+nisam puno o opisu sta treba uradit u zadataku jer je sve jasno na slici...ako nesto ne skontas javi
