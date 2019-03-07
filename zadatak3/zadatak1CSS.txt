@@ -4,6 +4,7 @@ GLAVNI CILJ ZADATAK JE CSS
 
 -- prvi head je centriran
 -- u rijec LINK ima kao sjena
+-- teskt koji ima malo deblji crveni okvir kao sto se primjeti ima manju vidljivost...a hover treba da se vidi normalno
 
 SVAKO MIJENJANJE STYLE/DESIGN IDE PREKO CSS
 
