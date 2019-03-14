@@ -1,0 +1,81 @@
+ul li{
+    display: inline;
+    margin: 0px 10px;
+    color: chocolate;
+    font-size: 20px;
+}
+
+ul li:hover{
+    color: rgb(255, 166, 103);
+    cursor: pointer;
+}
+
+i {
+    margin-right: 5px;
+    color: yellow;
+}
+form{
+    text-align: center;
+    margin-top: 80px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    border-radius: 15%;
+    border: 0px;
+    
+}
+
+button:hover{
+    box-shadow: 2px 3px greenyellow;
+}
+
+#dis{
+    cursor: not-allowed;
+}
+
+button span{
+    color: white;
+    font-size: 15px;
+}
+
+#drugaForma{
+    margin-top: 30px;
+}
+
+input{
+    height: 28px;
+    margin-right: 10px;
+    border: 2px solid gold;
+    border-radius: 20%
+}
+
+input::placeholder{
+    color: red;
+}
+
+input:focus{
+    border: 2px double yellowgreen;
+}
+
+#povecat{
+    width: 50%;
+    transition: width 1.5s ease-in-out;
+    margin-top: 20px;
+}
+
+#povecat:focus{
+    width: 100%
+}
+
+h1:hover{
+    transform: scale(1,2)
+}
+
+textarea{
+    border-radius: 20%;
+    resize: none;
+    margin-left: 38%
+}
