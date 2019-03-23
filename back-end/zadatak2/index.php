@@ -6,7 +6,7 @@ $id = $_REQUEST["ID"];
 $feedback = $_REQUEST["text"];
 $session = $_REQUEST["session"];
 
-$sql = 'INSERT INTO aboc (`text`, `session`) VALUES ("$feedback", "$session") ';
+$sql = "INSERT INTO aboc (`text`, `session`) VALUES ($feedback, $session) ";
 
 $exec = @mysqli_query($dbc, $sql);
     if ($exec) {
