@@ -1,0 +1,8 @@
+*** ROK PETAK NAVECER
+
+--> CSS RESPONIVE CILJ OVOG ZADATKA
+
+- napravit navbar koji ce na medium ekrane i + (vise/vece ekrane) imat zlatnu boju a na manje ce se boja promijenit u crvenu
+- imamo dva paragrafa poslije...na medium i vecim ekranima su jedan pored drugog...kad je manji ekran onda ide jedan ispod drugog...i dobiju razmak izmedju
+- slika na sredini ekrana (manje bitno)...kad je na malom ekranu slika nestane
+- imamo input search koji ce se na focus povecat (polako)...sve vece od malog ekrana povecava se dokle moze a da button ostane pored njega...a na malom ekranu bude dobije vecu sirinu nego kad je na ostalim...i na focus se povecava do kraja ekrana a button bude na sredini ekrana
