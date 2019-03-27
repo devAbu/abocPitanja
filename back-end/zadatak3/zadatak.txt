@@ -1,0 +1,6 @@
+***ROK PETAK NAVECER
+
+- uradit stranicu koja ce imat dvije forme (nije bitno koji su fieldovi) i na kraju svake po jedan button kao submit
+- kada se klikne na button te podatke unese u tabelu (koju ti napravis) --> skoro isto ko onaj dio sto si radio na proslom zadatku
+- slanje podataka ide preko ajax-a...jedan ajax da salje podatke GET methodom, drugi ajax salje podatke POST methodom
+- ako slanje odnosno unos podataka bude uspjesan korisniku dadne neki znak (moze alert il toastr kako hoces) i to isto ako ne uspije (samo eto druga poruka haha)
