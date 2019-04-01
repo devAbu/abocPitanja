@@ -1,0 +1,17 @@
+SRNI ZADATAK 3
+
+connection...nema mysql u password
+
+get.php...if($result){
+					echo ('poslano');
+				}
+				
+post.php...umjesto $ime = $_POST['mail'];
+	    		$juhu = $_POST['godina']; --> $mail = $_POST['mail'];
+												$godina = $_POST['godina'];
+				if($result){
+					echo ('poslano');
+				}
+
+zadatak3.php...id="forma1" i id = "forma2"...slika				
+				
