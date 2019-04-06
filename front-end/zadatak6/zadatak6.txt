@@ -1,0 +1,9 @@
+***ROK DO UTORKA NAVECER
+
+- kad se stranica pokrene dobije se jedan alert/upozorenje da se stranica uspjesno ucitala
+- takodjer u konzoli treba da se ispise da se stranica ucitala
+- onda moras uradit u html onu stranicu sto je na slici
+- kad user klikne na prvi button (KLIKNI) pored UCIMO doda se JS
+- button SABERI...sabira dva unese broja u input fieldovima sto su pored i u trecem inputu upise rezultat (filed koji ima placeholder rezultat)
+- button KLIKNI DA PROVJERIS...provjerava da li je user unio ta dva input fielda sto su pored njega...ako user nije nista unio ispise se mu pored button-a error npr. "unesi ime" kad unese prvi field a drugi ne...kad klikne na button kaze mu npr "unesi godine", taj field ne smije da bude 0...ako unese 0 i klikne na button kaze mu npr. "unesi tacne godin"...ako unese oba fielda onda mu ispise "HVALA"...ERRORI SU CRVENOM BOJOM, HVALA JE ZELENOM...kad dobije poruku HVALA onda nakon 2 sekunde mu restartuje te fieldove i poruka HVALA nestane
+- button VIDI SIFRU...jednom kad korisnik unese sifru u input field i klikne na button sifra postaje vidjljiva...to jest slova vise nisu tackice nego normalna slova...ako pritisne ponovo na button vrati sigru u tackice
