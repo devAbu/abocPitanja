@@ -4,10 +4,9 @@
 
 - napravit stranicu ista ko na slici
 - imamo 3 forme....registracija, login i slanje poruke
-- na pokretanje stranice sva 3 button-a se nmg pritisnut
 - registracija - na klik button-a:
                 -->     provjerit da li je ime napisano...ako nije napisat mu iznad button-a (crvene boje error)...error se pojavljuje polako...zadrzava 2 sekunde...krije/nestaje polako
-                -->     tako za svaki field 
+                -->     tako za svaki field
                 -->     pripazit na email...treba jaca/bolja validacija od samo u html-u type="email"...validacija preko jquery-a...da provjeri imal: tekst sa mozda nekim znakovima izmedju (tako npr . - il slicno)...onda @...onda tekst pa . pa nesto (ima na googlu jquery funkcija samo trebate nac)
                 --> na button kod password prikaze/sakrije se sifra
                 --> ako je sve uredu...pokaze mu poruku na istom mjestu gdje se nalazio error samo zelene boje tekst
@@ -25,4 +24,4 @@
                 --> na error isto iznad button-a crvenim slovima poruka (polako se pokazuje, zadrzava se malo, pa se polako sakrije)
                 --> ako je sve uredu isto ko error samo zelenim
 
---> NAPOMENA: errori odnosno success u sve 3 forme su isti samo je tekst errora il successa drugaciji
+--> NAPOMENA: errori odnosno success u sve 3 forme su isti samo je tekst errora il successa drugaciji...boje errora i successa (crvena i zelena) se mijenjaju preko jquery a ne css

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQUERY - 2</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>REGISTRACIJA</h1>
+    <form>
+        <input type="text" placeholder="firstName" id="firstName">
+        <input type="text" placeholder="lastName" id="lastName">
+        <input type="email" placeholder="email" id="emailRegistracija">
+        <input type="password" placeholder="password" id="passwordRegistracija">
+        <button id="okoRegistracija">VIDI SIFRU</button>
+        <br>
+        <label for="musko">Musko</label>
+        <input type="radio" name="pol" id="musko">
+        <label for="musko">Zensko</label>
+        <input type="radio" name="pol" id="zensko">
+        <br>
+        <button type="submit" id="buttonRegistracija">NAPRAVI RACUN</button>
+    </form>
+
+    <h1>LOGIN</h1>
+    <form>
+        <input type="email" placeholder="email" id="emailLogin">
+        <input type="password" placeholder="password" id="passwordLogin">
+        <button id="okoLogin">VIID SIFRU</button>
+        <br>
+        <button type="submit" id="buttonLogin">LOGUJ SE</button>
+    </form>
+
+    <h1>PORUKA</h1>
+    <form>
+        <input type="text" placeholder="name" id="nameFeedback">
+        <input type="email" name="emailFeedback" id="emailFeedback" placeholder="Email">
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Poruka..."></textarea>
+        <button id="buttonFeedback">Posalji poruku</button>
+    </form>
+
+</body>
+</html>
