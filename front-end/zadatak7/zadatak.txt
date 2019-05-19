@@ -1,0 +1,1 @@
+isti ko proslo samo preko jquery-a
