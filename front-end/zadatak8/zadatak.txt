@@ -8,14 +8,14 @@
                 -->     provjerit da li je ime napisano...ako nije napisat mu iznad button-a (crvene boje error)...error se pojavljuje polako...zadrzava 2 sekunde...krije/nestaje polako
                 -->     tako za svaki field
                 -->     pripazit na email...treba jaca/bolja validacija od samo u html-u type="email"...validacija preko jquery-a...da provjeri imal: tekst sa mozda nekim znakovima izmedju (tako npr . - il slicno)...onda @...onda tekst pa . pa nesto (ima na googlu jquery funkcija samo trebate nac)
-                --> na button kod password prikaze/sakrije se sifra
+                --> na button kod password prikaze/sakrije se sifra (pokusat je uradit sam a ne kopirat od proslog zadatka)
                 --> ako je sve uredu...pokaze mu poruku na istom mjestu gdje se nalazio error samo zelene boje tekst
-                --> email i sifru sacuvat u localStorage
+                --> ako je odlicno...email i sifru sacuvat u localStorage
 
 - login - na klik button-a:
                 -->     isto ko registracija ali samo email i password
                 --> na button kod password prikaze/sakrije se sifra
-                --> provjerit jesil uneseni email i sifra isti ko oni u localStorage-u
+                --> provjerit jesul uneseni email i sifra isti ko oni u localStorage-u
                 --> ako je sve uredu (ako jesu)...pokaze mu poruku na istom mjestu gdje se nalazio error samo zelene boje tekst
                 --> ako nisu isto error mu izbacit
                 
