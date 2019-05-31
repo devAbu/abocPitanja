@@ -1,0 +1,5 @@
+- ROK DO 
+
+*** JQUERY AJAX - SLANJE PODATAKA
+
+- napravit dvije forme kao sto je na slici

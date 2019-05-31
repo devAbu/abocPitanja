@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQUERY</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <link href="toastr.css" rel="stylesheet"/>
+    <script src="toastr.js"></script>
+</head>
+<body>
+    
+    <h1>FORMA 1 - POST</h1>
+    <form id="postForma">
+        <label for="userName">Username:</label>
+        <input type="text" name="userName" id="userName" placeholder="Username...">
+        <br>
+        <label for="userEmail">Email:</label>
+        <input type="email" name="userEmail" id="userEmail" placeholder="you@example.com">
+        <br>
+        <label for="userPassword">Create a password:</label>
+        <input type="password" name="userPassword" id="userPassword" placeholder="*****">
+        <input type="button" id="oko" value="VIDI SIFRU">
+        <br>
+        <label for="confirmPassword">Re-type the password:</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="*****">
+        <input type="button" id="confirmOko" value="VIDI SIFRU">
+        <br><br>
+        <button type="button" id="buttonPost">POSALJI PODATKE</button>
+    </form>
+
+    <script>
+
+        toastr.options.closeButton = true;
+        toastr.options.progressBar = true;
+        //toastr.options.rtl = true;
+        toastr.options.timeOut = 3000;
+        toastr.options.extendedTimeOut = 500;
+        toastr.options.preventDuplicates = true;
+        toastr.options.showMethod = 'slideDown';
+        toastr.options.hideMethod = 'slideUp';
+        //toastr.options.closeMethod = 'slideUp';
+        /* toastr.options.showEasing = 'linear';
+        toastr.options.hideEasing = 'linear';
+        toastr.options.closeEasing = 'linear'; */
+
+        $('#buttonPost').click(function(){
+            var password = $('#userPassword').val()
+            var confirmPassword = $('#confirmPassword').val()
+
+            
+            if(password != confirmPassword){
+                toastr.error('SIFRE NISU ISTE')
+            }else{
+                toastr.success('UREDU')
+                $.post({
+                    //type: post,
+                    url: 'post.php',
+                    data: $('#postForma').serialize(),
+
+                    success: function (data) {
+                            if (data.indexOf('juhu') > -1) {
+                                toastr.success('response je uredu');
+                            } else{
+                                toastr.error('Error u response')
+                            }
+                            
+                        },
+                    error: function(err){
+                            toastr.error('Error u serveru'); 
+                        }
+
+                })
+            }
+        })
+
+        $('#oko').click(function () {
+            var elementType = $('#userPassword').attr('type');
+            if (elementType == "text") {
+                $('#userPassword').attr('type', 'password');
+            } else if (elementType == "password") {
+                $('#userPassword').attr('type', 'text');
+            }
+        });
+
+        $('#confirmOko').click(function () {
+            var elementType = $('#confirmPassword').attr('type');
+            if (elementType == "text") {
+                $('#confirmPassword').attr('type', 'password');
+            } else if (elementType == "password") {
+                $('#confirmPassword').attr('type', 'text');
+            }
+        });
+    </script>
+
+
+    <h1>FORMA 2 - GET</h1>
+    <form id="getForma">
+        <label for="userName">Username:</label>
+        <input type="text" name="name" id="name" placeholder="Username...">
+        <br>
+        <label for="password">SIfra:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <span>Zapamti prijavu</span>
+        <input type="checkbox" name="prijava" id="prijava">
+        <br><br>
+        <button type="button" id="buttonGet">POSALJI PODATKE</button>
+    </form>
+
+    <script>
+        $('#buttonGet').click(function(){
+                $.ajax({
+                    type: get,
+                    url: 'get.php',
+                    data: $('#getForma').serialize(),
+
+                    success: function (data) {
+                            if (data.indexOf('juhu') > -1) {
+                                toastr.success('response je uredu');
+                            } else{
+                                toastr.error('Error u response')
+                            }
+                            
+                        },
+                    error: function(err){
+                            toastr.error('Error u serveru'); 
+                        }
+
+                })
+            })
+            
+        $('#oko').click(function () {
+            var elementType = $('#userPassword').attr('type');
+            if (elementType == "text") {
+                $('#userPassword').attr('type', 'password');
+            } else if (elementType == "password") {
+                $('#userPassword').attr('type', 'text');
+            }
+        });
+
+        $('#confirmOko').click(function () {
+            var elementType = $('#confirmPassword').attr('type');
+            if (elementType == "text") {
+                $('#confirmPassword').attr('type', 'password');
+            } else if (elementType == "password") {
+                $('#confirmPassword').attr('type', 'text');
+            }
+        });
+    </script>
+
+
+</body>
+</html>
